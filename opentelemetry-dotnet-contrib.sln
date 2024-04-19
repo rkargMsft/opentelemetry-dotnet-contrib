@@ -342,7 +342,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenTelemetry.ResourceDetec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenTelemetry.ResourceDetectors.Host.Tests", "test\OpenTelemetry.ResourceDetectors.Host.Tests\OpenTelemetry.ResourceDetectors.Host.Tests.csproj", "{36271347-2055-438E-9659-B71542A17A73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetry.PersistentStorage.Abstractions.Tests", "test\OpenTelemetry.PersistentStorage.Abstractions.Tests\OpenTelemetry.PersistentStorage.Abstractions.Tests.csproj", "{7AD707F9-DC6D-430A-8834-D5DCD517BF6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenTelemetry.PersistentStorage.Abstractions.Tests", "test\OpenTelemetry.PersistentStorage.Abstractions.Tests\OpenTelemetry.PersistentStorage.Abstractions.Tests.csproj", "{7AD707F9-DC6D-430A-8834-D5DCD517BF6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenTelemetry.Sampler.Adaptive", "src\OpenTelemetry.Sampler.Adaptive\OpenTelemetry.Sampler.Adaptive.csproj", "{BD0A2F52-D105-49A0-8416-40A8370ED093}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -350,6 +352,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD0A2F52-D105-49A0-8416-40A8370ED093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0A2F52-D105-49A0-8416-40A8370ED093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0A2F52-D105-49A0-8416-40A8370ED093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0A2F52-D105-49A0-8416-40A8370ED093}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CAD5C27A-D359-4086-9C4F-02204C084A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CAD5C27A-D359-4086-9C4F-02204C084A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAD5C27A-D359-4086-9C4F-02204C084A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -697,6 +703,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{43CAFE52-F329-4431-87DA-7FEE1454D9A9} = {1A06E14B-DD2F-4536-9D2E-F708C0C43555}
 		{0112BD4F-B7A6-4E43-AB23-B6E961E27A49} = {824BD1DE-3FA8-4FE0-823A-FD365EAC78AF}
+		{BD0A2F52-D105-49A0-8416-40A8370ED093} = {22DF5DC0-1290-4E83-A9D8-6BB7DE3B3E63}
 		{E0F52FDB-23D1-4927-BAB8-332655DD7A0B} = {824BD1DE-3FA8-4FE0-823A-FD365EAC78AF}
 		{CAD5C27A-D359-4086-9C4F-02204C084A8E} = {22DF5DC0-1290-4E83-A9D8-6BB7DE3B3E63}
 		{73474960-8F91-4EE5-8E3E-F7E7ADA99238} = {B75EE478-97F7-4E9F-9A5A-DB3D0988EDEA}
